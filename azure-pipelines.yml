@@ -3,17 +3,22 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+# Triggers
 trigger:
 - master
 
+# Pools
 pool:
   vmImage: 'ubuntu-latest'
 
+# Steps
 steps:
-- script: HI TALA!
+
+- script: echo Hello, ICT DevOps!
   displayName: 'Run a one-line script'
 
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo Learn more about YAML.
+    echo Let us add more tasks to build, test, and deploy our project.
+    echo Learn more about YAML!
   displayName: 'Run a multi-line script'
+
