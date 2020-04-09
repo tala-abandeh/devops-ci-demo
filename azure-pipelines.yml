@@ -22,3 +22,11 @@ steps:
     echo Learn more about YAML!
   displayName: 'Run a multi-line script'
 
+- task: CopyFilesOverSSH@0
+  inputs:
+    sshEndpoint: 'Tala'
+    sourceFolder: '/var/www/html'
+    contents: '**'
+    cleanTargetFolder: true
+    readyTimeout: '20000'
+    failOnEmptySource: true
