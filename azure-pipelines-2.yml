@@ -20,11 +20,10 @@ steps:
 - task: CopyFilesOverSSH@0
   inputs:
     sshEndpoint: 'Tala'
-    sourceFolder: 'Tala@13.82.49.24'
+    sourceFolder: 'web/'
     contents: '**'
     targetFolder: 'var/www/html'
     cleanTargetFolder: true
     readyTimeout: '20000'
     failOnEmptySource: true
-
    
