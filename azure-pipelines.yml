@@ -1,8 +1,4 @@
 # Starter pipeline
-- task: CopyFilesOverSSH@0
-  inputs:
-    contents: '**'
-    readyTimeout: '20000'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
