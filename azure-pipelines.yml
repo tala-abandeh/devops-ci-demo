@@ -27,6 +27,6 @@ steps:
     sshEndpoint: 'Tala'
     sourceFolder: '/var/www/html'
     contents: '**'
-    #cleanTargetFolder: true
+    cleanTargetFolder: true
     readyTimeout: '20000'
-    #failOnEmptySource: true
+    failOnEmptySource: true
