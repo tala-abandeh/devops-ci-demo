@@ -23,5 +23,6 @@ steps:
     sourceFolder: 'web/'
     contents: '**'
     targetFolder: 'var/www/html'
+    cleanTargetFolder: true
     readyTimeout: '20000'
     failOnEmptySource: true
