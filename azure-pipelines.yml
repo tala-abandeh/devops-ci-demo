@@ -22,12 +22,4 @@ steps:
     echo Let us add more tasks to build, test, and deploy our project.
     echo Learn more about YAML!
   displayName: 'Run a multi-line script'
-- task: CopyFilesOverSSH@0
-  inputs:
-    sshEndpoint: 'talaaabndeh@40.121.36.196'
-    sourceFolder: 'web/'
-    contents: '**'
-    targetFolder: '/var/www/html'
-    cleanTargetFolder: true
-    readyTimeout: '20000'
-    failOnEmptySource: true
+
