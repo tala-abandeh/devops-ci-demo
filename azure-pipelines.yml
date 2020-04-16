@@ -24,7 +24,7 @@ steps:
   displayName: 'Run a multi-line script'
 - task: CopyFilesOverSSH@0
   inputs:
-    sshEndpoint: 'Tala-VM'
+    sshEndpoint: 'Tala'
     sourceFolder: 'web/'
     contents: '**'
     targetFolder: '/var/www/html'
