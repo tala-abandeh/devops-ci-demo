@@ -21,7 +21,16 @@ steps:
 - script: |
     echo Let us add more tasks to build, test, and deploy our project.
     echo Learn more about YAML!
-  displayName: 'Run a multi-line script'
+  displayName: 'Run a multi-line script' 
+  
+- script: |
+   echo ""
+   echo "<html><head><title>Demo</title></head><body>"
+   echo "Today is $OUTPUT <br>"
+   echo "Current directory is $(pwd) <br>"
+   echo "Shell Script name is $0"
+   echo "</body></html>"
+
 - task: CopyFilesOverSSH@0
   inputs:
     sshEndpoint: 'tala@104.41.155.217'
