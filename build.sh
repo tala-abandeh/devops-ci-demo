@@ -15,4 +15,3 @@ else
     exit 2
 fi
 
-TALA="$(cat -)"
