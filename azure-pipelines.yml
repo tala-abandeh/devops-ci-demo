@@ -24,7 +24,7 @@ steps:
   displayName: 'Run a multi-line script'
 - task: CopyFilesOverSSH@0
   inputs:
-    sshEndpoint: 'abandeh@52.234.132.208'
+    sshEndpoint: 'tala@137.135.80.253'
     sourceFolder: 'web/'
     contents: '**'
     targetFolder: '/var/www/html'
