@@ -15,7 +15,7 @@ pool:
 # Steps
 steps:
 
-- script: echo Hello
+- script: echo Hello DevOps Engineer
   displayName: 'Run a one-line script'
 
 - script: |
