@@ -15,7 +15,7 @@ pool:
 # Steps
 steps:
 
-- script: echo Hello, ICT DevOps!
+- script: echo Hello, Tala!
   displayName: 'Run a one-line script'
 
 - script: |
