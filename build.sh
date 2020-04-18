@@ -16,9 +16,3 @@ else
 fi
 
 TALA="$(cat -)"
-
-echo "Date: $(date)"
-echo "Content-Length: 18"
-echo "Content-Type: text/json"
-echo ""
-echo "{\"success\":\"true\"}"
