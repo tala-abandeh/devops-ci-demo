@@ -10,9 +10,15 @@ DST=/var/ww/html
 if [ -d "$DST" ]; then
     echo "Deployment target exists: $DST"
     cp -r $SRC/* $DST
-    echo "Tests started at…"
-date "+%H:%M:%S"
 else
     echo "Deployment target does not exist."
     exit 2
 fi
+
+TALA="$(cat -)"
+
+echo "Date: $(date)"
+echo "Content-Length: 18"
+echo "Content-Type: text/json"
+echo ""
+echo "{\"success\":\"true\"}"
