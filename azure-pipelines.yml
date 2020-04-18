@@ -15,7 +15,7 @@ pool:
 # Steps
 steps:
 
-- script: echo Hello, Tala!
+- script: echo Hello,!
   displayName: 'Run a one-line script'
 
 - script: |
